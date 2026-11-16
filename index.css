@@ -51,7 +51,7 @@ h1, h2, h3{
 .logo {
     font-family: var(--fonte-cartaz);
     font-size: 34px;
-    font-weight: 900px;
+    font-weight: 900;
     text-decoration: none;
 }
 
