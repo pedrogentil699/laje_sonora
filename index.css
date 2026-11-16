@@ -191,3 +191,52 @@ h1, h2, h3{
     display: flex;
     justify-content: space-between;
 }
+
+.passos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.passo {
+    border-top: 6px solid var(--tinta);
+    padding-top: 20px;
+    max-width: 360px;
+}
+
+.passo-numero {
+    font-family: var(--fonte-cartaz);
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 1;
+    color: var(--caixa-dagua);
+}
+
+.passo h3 {
+    font-size: 32px;
+    margin-block: 8px 12px ;
+}
+
+.rodape {
+    margin-top: 120px;
+    background: var(--tinta);
+    color: var(--concreto);
+    padding: 56px 0px;
+}
+
+.rodape-colunas {
+    display: flex;
+    gap: 40px;
+}
+
+.rodape-coluna {
+    justify-content: space-between;
+    min-width: 254px;
+}
+
+.rodape h4 {
+    font-family: var(--fonte-cartaz);
+    font-size: 28px;
+    color: var(--fita);
+    margin-bottom: 12px;
+}
